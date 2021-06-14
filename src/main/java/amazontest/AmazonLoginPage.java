@@ -25,6 +25,7 @@ public class AmazonLoginPage {
 		WebElement textbox = driver.findElement(By.id("twotabsearchtextbox"));
 		textbox.sendKeys("mobile");
 		textbox.sendKeys(Keys.ENTER);
+		System.out.println("AmazonLoginPage.methstart()");
 	}
 
 	@Test
